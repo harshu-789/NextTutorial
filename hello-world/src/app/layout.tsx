@@ -1,8 +1,12 @@
-export const metadata = {
-    title: 'Home',
-    description: 'Welcome to the home page',
-}
+import { Metadata } from "next"
 
+export const metadata: Metadata = {
+    title : {
+        default: "Hello World",
+            template:"%s | Learning Next.js",
+            // absolute :"", 
+    }
+}
 export default function RootLayout({
     children,
 }:{
@@ -10,6 +14,7 @@ export default function RootLayout({
 } ){
     return(
         <html>
+            <head />
             <body>{children}</body>
         </html>
     )
