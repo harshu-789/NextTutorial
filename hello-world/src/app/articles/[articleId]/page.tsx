@@ -23,7 +23,7 @@ export default  function NewsArticle({
       </p>
       <div>
         <Link href={`/articles/${articleId}?lang=en`}>English</Link>
-        <Link href={`/articles/${articleId}lang=fr`}>French</Link>
+        <Link href={`/articles/${articleId}?lang=fr`}>French</Link>
       </div>
     </div>
   );
