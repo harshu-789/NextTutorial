@@ -1,5 +1,6 @@
 import { Metadata } from "next"
-import { ErrorWrapper } from "./error-wrapper"
+
+
 
 export const metadata: Metadata = {
     title : {
